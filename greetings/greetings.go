@@ -36,7 +36,7 @@ func Hello(name string) string {
 }
 
 func HelloInt(val int) string {
-	var valStr string = strconv.Itoa(val); 
+	var valStr string = strconv.Itoa(val); //int to string
 	message := fmt.Sprintf("Num is %v", valStr)
 	return message
 }
